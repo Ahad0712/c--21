@@ -41,7 +41,7 @@ function draw() {
 
   for(var i=1;i<logGroup1.length;i++){
     if(logGroup1[i].x<0){
-      logGroup1[i.x=width];
+      logGroup1[i].x=width;
     }}
   for(var i=1;i<carGroup1.length;i++){
     if(carGroup1[i].x<0){
